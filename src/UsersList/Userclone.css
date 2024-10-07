@@ -1,0 +1,108 @@
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-Color: '#371A49';
+    padding-top: 20px;
+    
+  }
+  .abc{
+    display:flex;
+  
+  }
+  .pagination {
+    display: flex;
+    flex-direction: row; /* Ensure this property is set to row */
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .page-item {
+    margin: 0 2px;
+  }
+  
+  .page-link-prev,
+  .page-link-next {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    background-color: #f8f9fa;
+    color: #343a40;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 5px;
+    display: flex; /* Adjust the margin for spacing between buttons */
+    align-items: center; /* Center button content vertically */
+  }
+  .page-link-prev,
+  .page-link-next {
+    border-radius: 3px;
+  }
+  
+  /* Add hover effect for better user experience */
+  .page-link-prev:hover,
+  .page-link-next:hover {
+    background-color: #e9ecef;
+  }
+  .search-search {
+    padding: 10px 15px;
+    margin-left: 20px;
+    background-color: #566acd; /* Change the color to your preference */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .search-search:hover {
+    background-color: #4c41ca; /* Change the hover color to your preference */
+  }
+  containerStyle {
+       
+    background-Color: '#371a49';
+    padding: '20px';
+    height: '100vh';
+    width:'100%';
+  }
+  
+  tableStyle  {
+    border-Collapse: 'collapse';
+    width: '100%';
+    margin-Top: '20px';
+  };
+  
+  thStyle  {
+    border: '0px transparent white';
+    padding: '10px';
+    text-Align: 'left';
+    border-Bottom: '2px solid white';
+    color: 'white';
+    font-Size: '20px';
+    font-Weight: '900px';
+  };
+  
+  inputStyle{
+    padding: '8px';
+    margin-Bottom: '10px';
+    width: '20%';
+    border: '2px solid #ccc';
+    border-Radius: '3px',
+  };
+  
+  
+  buttonStyle  {
+    padding: '8px 12px';
+    margin: '0 5px';
+    border: 'none';
+    background-Color: '#4285f4';
+    color: 'white';
+    cursor: 'pointer';
+    border-Radius: '3px';
+  };
+  
+   TextContainer {
+    font-Size: '20px';
+    color: 'white';
+    padding: '10px';
+  };
+  

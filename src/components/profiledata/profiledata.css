@@ -1,0 +1,68 @@
+
+.outer-container{
+  overflow:hidden;
+  background-color: rgb(240, 233, 233);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 152px;
+  margin-left: 500px;
+  height:50vh;
+  width:70vh;
+  border-radius: 10%;
+  box-shadow: 9px 9px;
+  
+}
+.card-body{
+  margin: 20px;
+  flex: 1 1 auto;
+  min-height:1px;
+  padding:1.25rem;
+  background-color: azure;
+  box-shadow: 8px 8px;
+}
+.partition{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items:center;
+}
+.nameone{
+  text-align: center;
+  margin-top: 0.1 rem;
+  font-size:x-large;
+}
+.myname{
+  font-size:13px;
+}
+.table-responsive{
+  display:block;
+  width:100%;
+  overflow-x:auto;
+}
+.table-property{
+  width:100%;
+  margin-bottom: 1 rem;
+  color:#212529;
+  text-align:center;
+}
+tbody{
+  display:table-row-group;
+  vertical-align:middle;
+  border-color:inherit;
+}
+/* button {
+  background-color: rgb(144, 144, 254);
+ height:30px;
+ width:80px;
+ margin-left: 80px;
+ margin-top: 10px;
+ 
+} */
+
+.editing{
+  display: flex;
+  justify-content: center;
+}
+
+

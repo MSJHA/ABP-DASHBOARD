@@ -1,0 +1,138 @@
+/* .container {
+    font-family: Arial, sans-serif;
+    background-color: #371a49;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .add-button {
+    padding: 10px 12px;
+    margin: 20px 0;
+    border: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .add-button:hover {
+    background-color: #2e7d32;
+  }
+  
+  .delete-button {
+    padding: 10px 12px;
+    margin-left: 20px;
+    border: none;
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .delete-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .table th {
+    border: 0px transparent white;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    padding: 8px 12px;
+    margin: 0 5px;
+    border: none;
+    background-color: #4285f4;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .pagination button:hover {
+    background-color: #2a62b0;
+  }
+  
+  .text-container {
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+  }
+   */
+   /* Role.css */
+/* .container {
+  font-family: Arial, sans-serif;
+  background-color: #371a49;
+  padding: 20px;
+  height: 100vh;
+}
+
+.addButton,
+.deleteButton,
+.deleteRoleButton {
+  padding: 10px 12px;
+  margin: 20px 0;
+  border: none;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.deleteButton {
+  margin-left: 400px;
+}
+
+.roleTable {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.roleTable th {
+  border: 0px transparent white;
+  padding: 10px;
+  text-align: left;
+  border-bottom: 2px solid white;
+  color: white;
+  font-size: 20px;
+  font-weight: 900px;
+}
+
+.roleTable td {
+  color: white;
+  padding: 10px;
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+.button,
+.activeButton {
+  padding: 8px 12px;
+  margin: 0 5px;
+  border: none;
+  background-color: #4285f4;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.activeButton {
+  background-color: grey;
+} */

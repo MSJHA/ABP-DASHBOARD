@@ -1,0 +1,97 @@
+.signup-container.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 83px;
+    margin-bottom: 30px;
+    background: #fff;
+    width: 443px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.signup-container .header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    margin-top: 11px;
+}
+.signup-container .text{
+    color: #111191;
+    font-family: 'Segoe UI', 'Helvetica', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+.signup-container .underline{
+    width: 154px;
+    height: 6px;
+    background: #111191;
+    border-radius: 10px;
+}
+
+.signup-container .inputs{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.signup-container .input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 337px;
+    height: 60px;
+    background: #eaeaea;
+    border-radius: 6px;
+}
+
+.signup-container .input input {
+
+    height: 38px;
+    width: 400px;
+    background: linear-gradient(to right, #fff, #f2f2f2);
+    border: 1px solid #ccc; 
+    outline: none;
+    color: #2c2c2c;
+    font-size: 18px;
+    padding: 10px; 
+    border-radius: 8px; 
+    transition: background 0.3s ease, border 0.3s ease; 
+    margin-left: 20px; 
+    &:focus {
+        border: 2px solid #0d031b; 
+        font-weight: bold;
+    }
+}
+
+.signup-container .submit-container{
+    display: flex;
+    gap: 8px;
+    margin: 9px auto;
+}
+
+.signup-container .svg-inline--fa{
+    display: var(--fa-display);
+    height: 2em;
+    /* overflow: visible; */
+    /* vertical-align: -0.125em; */
+    margin-left: 20px;
+}
+
+.signup-container .sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 220px;
+    color: #fff;
+    background: rgb(90, 26, 151);
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 20px auto;
+}
